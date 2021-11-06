@@ -135,7 +135,7 @@ int evaluatePostfix(string postfix) {
 				st.Push(num1); //adding integer to stack
 			}
 		}
-		else if (count == 1) {  //one digit number
+		else if (count == 1) {  //checking one digit number
 			if (isdigit(c[0])) { //checking if it is a digit
 				int q = atoi(c); //converting to integer
 				st.Push(q); //push into stack
